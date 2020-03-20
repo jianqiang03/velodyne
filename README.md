@@ -19,3 +19,11 @@ CI builds are currently run for Kinetic and Melodic.
 - <sup>1</sup>Velodyne: http://www.ros.org/wiki/velodyne
 - <sup>2</sup>ROS: http://www.ros.org
 - <sup>3</sup>`Velodyne high definition 3D LIDARs`: http://www.velodynelidar.com/lidar/lidar.aspx
+
+1. network setup
+http://wiki.ros.org/velodyne/Tutorials/Getting%20Started%20with%20the%20Velodyne%20VLP16
+
+2. run the driver
+```
+$ roslaunch velodyne_pointcloud VLP-32C_points.launch
+```
